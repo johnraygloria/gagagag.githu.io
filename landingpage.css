@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7.5rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+
+.page_name{
+  color: #4d4d4d;
+  text-decoration: none;
+  font-size: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 3%;
+}
+.page_name span{
+  color:#A024A3;
+}
+
+.navbar{
+  display: flex;
+  margin-right: 8%;
+  /* background-color: #A024A3; */
+}
+
+.navbar h1{
+  text-decoration: none;
+  color: #4d4d4d;
+  font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+  margin-left: 1.5rem;
+  /* width: 100%; */
+}
+
+.classniline{
+  position: absolute;
+  height: 80px;
+  left: 93.1%;
+  top: 15%;
+  border-right: solid 2px #4d4d4d;
+}
+.you_fix{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 2.6rem;
+  bottom: 25%;
+}
+
+.you_icon{
+  position: absolute;
+  top: 20%;
+  right: 2.7%;
+  cursor: pointer;
+}
+
+.home_intro{
+  position: absolute;
+  top: 23%;
+  left: 8%;
+  width: 480px;
+  height: 460px;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 10px 10px;
+}
+.first_para{
+  color: #A024A3;
+  font-family:'Montserrat', sans-serif;
+  font-size: 35px;
+  width: 85%;
+  font-weight: 650;
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+.second_para{
+  width: 85%;
+font-size: 16px;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  font-weight: 650;
+  font-family:'Montserrat', sans-serif;
+}
+
+.flex_more{
+  display: flex;
+  margin-left: 10%;
+  margin-bottom: 7%;
+}
+
+.assistant_intro{
+  width: 100%;
+  height: 65px;
+  margin-right: 10%;
+  border-radius: 5px;
+  background: #E9E9E9;
+  color: #A024A3;
+  font-family:'Montserrat', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.fix_moko{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.typemoko{
+  border: none;
+  width: 390px;
+  height: 55px;
+  border-radius: 5px;
+  background: #E9E9E9;
+  color: #B39595;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
